@@ -1,0 +1,65 @@
+.App {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-color: #282c34;
+  color: white;
+}
+
+#quote-box {
+  border: #0075e2 3px solid;
+  border-radius: 20px;
+  text-align: center;
+  width: 35%;
+  padding: 20px;
+}
+
+#text {
+  font-size: 25px;
+}
+
+#author {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#new-quote {
+  background-color: transparent;
+  border: #0075e2 3px solid;
+  border-radius: 20px;
+  padding: 10px;
+  color: #0075e2;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 20px;
+  transition: 0.3s;
+}
+
+#new-quote:hover {
+  background-color: #0075e2;
+  color: white;
+  cursor: pointer;
+}
+
+#tweet-quote {
+  text-decoration: none;
+  background-color: transparent;
+  border: #0075e2 3px solid;
+  border-radius: 20px;
+  padding: 10px;
+  color: #0075e2;
+  font-weight: bold;
+  margin: 0 20px;
+  transition: 0.3s;
+}
+
+#tweet-quote:hover {
+  background-color: #0075e2;
+  color: white;
+  cursor: pointer;
+}
